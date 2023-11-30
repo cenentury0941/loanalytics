@@ -1,0 +1,193 @@
+.Step3-Background {
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    background-color: #282c34;
+    align-items: center;
+    justify-content: space-evenly;
+    gap: 0px;
+}
+
+.Step3-Text-Container {
+    background-color: #0000;
+    display: flex;
+    flex-direction: column;
+    border-radius: 10px;
+    width: 55%;
+    height: 80vh;
+    padding: 20px;
+    align-items: start;
+    justify-content: start;
+    box-sizing: border-box;
+}
+
+.Step3-Form-Container {
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    border-radius: 10px;
+    width: 39%;
+    height: 80vh;
+    align-items: center;
+    justify-content: center;
+    box-sizing: border-box;
+    position: relative;
+}
+
+.Step3-Details-Container {
+    background-color: #0000;
+    display: flex;
+    flex-direction: column;
+    border-radius: 10px;
+    width: 100%;
+    height: 39vh;
+    padding: 20px;
+    align-items: start;
+    justify-content: start;
+    box-sizing: border-box;
+    overflow-y: scroll;
+    overflow-x: hidden;
+    gap: 10px;
+}
+
+.Step3-Form-Text {
+    font-size: 24px;
+    font-weight: 300;
+    color: #282c34;
+    width: 100%;
+    text-align: start;
+    margin: 0;
+}
+
+.Step3-Details-Text {
+    font-size: 20px;
+    font-weight: 200;
+    color: #282c34;
+    width: 100%;
+    text-align: start;
+    margin: 0;
+}
+
+.Step3-Text-White {
+    color: white;
+}
+
+.Step3-Subheading {
+    width: 70%;
+    font-weight: 300;
+    font-size: 32px;
+    margin: 0;
+    text-align: start;
+    color: rgb(147, 147, 147);
+    user-select: none;
+}
+
+.Step3-Heading {
+    width: 100%;
+    font-weight: 100;
+    font-size: 54px;
+    margin: 0px 0px 32px 0px;
+    text-align: start;
+    color: white;
+    user-select: none;
+}
+
+.Step3-Row-Container {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: fit-content;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    box-sizing: border-box;
+    padding: 5px 150px 5px 39px;
+}
+
+.Step3-Field-Label {
+    font-size: 20px;
+    width: 250px;
+    text-align: end;
+}
+
+.Step3-Full-Width {
+    display: flex;
+    height: fit-content;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+}
+
+.Step3-Bot-Header {
+    display: flex;
+    height: 9vh;
+    width: 100%;
+    flex-direction: row;
+    align-items: center;
+    justify-content: start;
+    padding: 0;
+    padding-left: 10px;
+    position: absolute;
+    top: 20px;
+    gap: 10px;
+}
+
+.Step3-Bot-Icon {
+    display: flex;
+    height: 100%;
+    aspect-ratio: 1;
+    background-image: url("../../images/botIcon.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    margin: 10px;
+    box-shadow: 0px 0px 5px 0px gray;
+    border-radius: 100%;
+}
+
+.Step3-Chat-Window {
+    display: flex;
+    flex-direction: column-reverse;
+    box-sizing: border-box;
+    padding: 10px;
+    height: 78%;
+    width: 90%;
+    border: 1px solid gray;
+    border-radius: 10px;
+    position: absolute;
+    bottom: 30px;
+    gap: 10px;
+    overflow-y: scroll;
+}
+
+.Step3-Chat-Margin-Auto {
+    margin-top: auto !important;
+}
+
+.Step3-Chat-Client-Message {
+    display: flex;
+    max-width: 60%;
+    word-break: keep-all;
+    padding: 15px;
+    background-color: #282c34;
+    color: white;
+    border-radius: 15px;
+    align-self: flex-end;
+    justify-content: end;
+    text-align: start;
+}
+
+.Step3-Chat-Agent-Message {
+    display: flex;
+    max-width: 60%;
+    word-break: keep-all;
+    padding: 15px;
+    background-color: white;
+    color: #282c34;
+    border: 1px solid #282c34;
+    border-radius: 15px;
+    align-self: flex-start;
+    justify-content: end;
+    text-align: start;
+}

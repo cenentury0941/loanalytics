@@ -1,0 +1,119 @@
+.Main-Container {
+    display: flex;
+    height: 100vh;
+    width: 100vw;
+    align-items: center;
+    justify-content: center;
+}
+
+.Custom-Button {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+    transition-duration: 100ms;
+    user-select: none;
+    margin: 10px;
+}
+
+.Custom-Button:active{
+    scale: 0.95;
+}
+
+.Button-Width-75pc{
+    width: 75%;
+}
+
+.Button-Width-60pc{
+    width: 60%;
+}
+
+.Button-Width-90pc{
+    width: 90%;
+}
+
+.Button-Height-10pc{
+    height: 10%;
+}
+
+.Button-Height-5vh{
+    height: 5vh;
+}
+
+.Button-Height-10vh{
+    height: 10vh;
+    padding: 10px;
+}
+
+.Button-Height-7pc{
+    height: 7%;
+}
+
+.Button-Inactive-Gray {
+    background-color: #282c34;
+}
+
+.Button-Inactive-Gray:hover {
+    color: #282c34;
+}
+
+.Button-Active-White {
+    border: 1px solid white;
+    color: white;
+}
+
+.Button-Active-White:hover {
+    background-color: white;
+}
+
+.Button-Inactive-White {
+    background-color: white;
+}
+
+.Button-Inactive-White:hover {
+    color: white;
+}
+
+.Button-Active-Gray {
+    border: 1px solid #282c34;
+    color: #282c34;
+}
+
+.Button-Active-Gray:hover {
+    background-color: #282c34;
+}
+
+.Horizontal-Divider {
+    display: flex;
+    height: 1px;
+    margin: 39px 0px;
+    align-self: center;
+}
+
+
+.Divider-White {
+    background-color: white;
+}
+
+.Divider-Gray {
+    background-color: #282c34;
+}
+
+.Divider-Width-75pc {
+    width: 75%;
+}
+
+.Horizontal-Align-Center {
+    align-self: center;
+}
+
+.Spacer-Height50px {
+    display: flex;
+    height: 50px;
+}
+
+.Spacer-Height39px {
+    display: flex;
+    height: 39px;
+}

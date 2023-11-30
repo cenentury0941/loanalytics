@@ -1,0 +1,80 @@
+.Step1-Background {
+    height: fit-content;
+    display: flex;
+    flex-direction: column;
+    background-color: #282c34;
+    padding-top: 150px;
+    padding-bottom: 100px;
+    align-items: center;
+    justify-content: start;
+    gap: 0px;
+}
+
+.Step1-Form-Container {
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    border-radius: 10px;
+    width: 70%;
+    height: fit-content;
+    padding: 39px 60px;
+    min-height: 150vh;
+    align-items: flex-start;
+    justify-content: flex-start;
+    box-sizing: border-box;
+}
+
+.Step1-Form-Text {
+    font-size: 24px;
+    font-weight: 300;
+    color: #282c34;
+    width: 100%;
+    text-align: start;
+    margin: 0;
+}
+
+.Step1-Subheading {
+    width: 70%;
+    font-weight: 300;
+    font-size: 32px;
+    margin: 0;
+    text-align: start;
+    color: rgb(147, 147, 147);
+    user-select: none;
+}
+
+.Step1-Heading {
+    width: 70%;
+    font-weight: 100;
+    font-size: 54px;
+    margin: 0px 0px 32px 0px;
+    text-align: start;
+    color: white;
+    user-select: none;
+}
+
+.Step1-Row-Container {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: fit-content;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    box-sizing: border-box;
+    padding: 5px 150px 5px 39px;
+}
+
+.Step1-Field-Label {
+    font-size: 20px;
+    width: 250px;
+    text-align: end;
+}
+
+.Step1-Full-Width {
+    display: flex;
+    height: fit-content;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+}
